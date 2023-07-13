@@ -1,0 +1,35 @@
+name: Validate Workflow
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        task: [build, lint]
+        node-version: [16.x]
+    name: ${{ matrix.task }}
+    steps:
+      - name: Checkout the commit
+        uses: actions/checkout@v3
+        with:
+          # To make sure all history is fetch for jest --changedSince to work as expected
+          fetch-depth: ${{ ( matrix.task != 'test' && 1 ) || 0 }} # 0 for test, 1 otherwise
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run ${{ matrix.task }}
+        run: yarn ${{ matrix.task }}

@@ -1,0 +1,11 @@
+<svg width="400" height="100"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <filter id="blurMe">
+        <feGaussianBlur in="SourceGraphic"  id="f1" x="0" y="0" stdDeviation="0" />
+    </filter>
+
+    <rect width="100%" height="100%" fill="#ccb8b8e3"
+            filter="url(#blurMe)" />
+</svg>

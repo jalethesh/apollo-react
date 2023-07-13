@@ -1,0 +1,131 @@
+{
+  "setlists": [
+    {
+      "id": "213123sdasdas",
+      "slug": "rhett-miller",
+      "image": "artists/artist01.png",
+      "date": "2022-11-10 19:30",
+      "artist": "Rhett Miller",
+      "venue": "City Winery NYC",
+      "distance": "0.2 Miles away",
+      "setlist": [
+        {
+          "artist": "Old 97's",
+          "title": "Melt Show"
+        },
+        {
+          "artist": "Rhett Miller",
+          "title": "Four-Eyed Girl"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Jesus Loves You"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Stoned"
+        },
+        {
+          "artist": "Rhett Miller",
+          "title": "Go Through You"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Niteclub"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Lonely Holiday"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Singular Girl"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Turn Off the TV"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Big Brown Eyes"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Good With God"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Question"
+        },
+        {
+          "artist": "Rhett Miller",
+          "title": "Beautiful Life"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Champaign, Illinois"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Let's Get Drunk & Get It On"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Bel Air"
+        },
+        {
+          "artist": "Rhett Miller",
+          "title": "Come Around"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Rollerskate Skinny"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Barrier Reef"
+        },
+        {
+          "artist": "Rhett Miller",
+          "title": "Total Disaster"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Doreen"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Longer Than You've Been Alive"
+        },
+        {
+          "artist": "Rhett Miller",
+          "title": "Our Love"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Valium Waltz"
+        },
+        {
+          "artist": "Old 97's",
+          "title": "Timebomb"
+        }
+      ]
+    }
+  ],
+  "songs": [
+    {
+      "id": 120235263,
+      "songId": 1,
+      "setListId": 120235222,
+      "createdAt": "2022-11-02T13:29:30.021Z",
+      "updatedAt": "2022-11-02T13:29:30.021Z"
+    },
+    {
+      "id": 120235332,
+      "songId": 2,
+      "setListId": 120235222,
+      "createdAt": "2022-11-02T13:29:30.050Z",
+      "updatedAt": "2022-11-02T13:29:30.051Z"
+    }
+  ]
+}
